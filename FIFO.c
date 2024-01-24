@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
-#include<conio.h>
+// #include<conio.h>
 int main(){
 	int i=0,j=0,k=0,i1=0,m,n,rs[30],flag=1,p[30];
 	system("clear");
@@ -34,8 +34,7 @@ int main(){
 			for(j=0;j<n;j++){
 				printf("\nPage%d:%d",j+1,p[j]);
 				if(p[j]==rs[i])
-				printf
-				4("*");
+				printf("*");
 			}
 			printf("\n\n");
 		}
